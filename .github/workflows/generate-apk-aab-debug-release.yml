@@ -42,7 +42,12 @@ jobs:
 
       - name: Build project
 
-        run: ./gradlew build
+        run: ./gradlew build 
+        
+# Run library jar 
+- name: Run library jar 
+
+run: ./gradlew library:jar
 
       # Create APK Debug
 
